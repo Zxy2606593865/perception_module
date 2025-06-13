@@ -1,0 +1,65 @@
+# ==================================
+# ===      General ignores       ===
+# ==================================
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings folders (except for configs you want to share)
+.vscode/
+.idea/
+
+# =g================================
+# ===   C++/CMake Build Artifacts  ===
+# ==================================
+
+# The build folder is the primary target for ignoring
+build/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# ==================================
+# ===    ROS 2 Build Artifacts   ===
+# ==================================
+
+# ROS 2 workspace folders
+install/
+log/
+
+# Generated files by ROS tools
+ament_cmake_gtest/
+ament_cmake_core/
+
+# ==================================
+# ===   Python-related ignores   ===
+# ==================================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders
+venv/
+env/
+
+# ==================================
+# ===    Log & Temp files      ===
+# ==================================
+*.log
+*.tmp
+*~
+
+# ==================================
+# ===   User-specific data     ===
+# ==================================
+# (This is a placeholder. If you have large datasets, 
+#  they should not be tracked by Git)
+# data/large_dataset/
